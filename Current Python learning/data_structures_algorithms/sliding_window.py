@@ -102,16 +102,43 @@ from collections import defaultdict, deque
 # take leftsum till subarray of size k
 # remove each element from left and add one element from right and calculate the maximum sum
 
-def maximumPoints(cardPoints, k):
-    lsum = 0; rsum = 0; maxSum = 0
-    for i in range(k - 1):
-        lsum += cardPoints[i]
-    maxSum = lsum
+# def maximumPoints(cardPoints, k):
+#     lsum = 0; rsum = 0; maxSum = 0
+#     for i in range(k - 1):
+#         lsum += cardPoints[i]
+#     maxSum = lsum
+#
+#     for i in range(k - 1, -1, -1):
+#         lsum -= cardPoints[i]
+#         rsum += cardPoints[i]
+#         maxSum = max(maxSum, lsum + rsum)
+#     return maxSum
+#
+# print(maximumPoints([1,2,3,4,5,6,1], 3))
 
-    for i in range(k - 1, -1, -1):
-        lsum -= cardPoints[i]
-        rsum += cardPoints[i]
-        maxSum = max(maxSum, lsum + rsum)
-    return maxSum
+# ================================================================================================================================
 
-print(maximumPoints([1,2,3,4,5,6,1], 3))
+# Longest subarray with atmost k distinct characters
+
+# Take 2 pointers l, r and a hash map for keep a count on unique characters
+# Expand window from r
+# check if the rth character is in map and then remove the count or pop out the element based
+# calculate the maximum length
+
+# def longestSubarrayWithKDistinctCharacters(s, k):
+#     l, r = 0, 0
+#     mp = dict()
+#     maxLen = 0
+#     while r < len(s):
+#         mp[s[r]] = mp.get(s[r], 0) + 1
+#         if len(mp) > k:
+#             mp[s[l]] -= 1
+#             if mp[s[l]] == 0: mp.pop(s[l])
+#             l += 1
+#         if len(mp) <= k:
+#             maxLen = max(maxLen, r - l + 1)
+#         r += 1
+#     return maxLen
+#
+#
+# print(longestSubarrayWithKDistinctCharacters("aaabbccd", 2))

@@ -2,7 +2,6 @@
 # Find all pairs with a given sum
 import math
 
-
 # Given two unsorted arrays A of size N and B of size M of distinct elements,
 # the task is to find all pairs from both arrays whose sum is equal to X.
 
@@ -1015,25 +1014,109 @@ import math
 # ================================================================================================================================
 # Aggressive cows
 
-def aggressiveCows(stalls, cows):
-    stalls.sort()
-    def canPlaceCows(stalls, dist, cows):
-        countCows, minDist = 1, stalls[0]
-        for i in range(1, len(stalls)):
-            if stalls[i] - minDist >= dist:
-                countCows += 1
-                minDist = stalls[i]
-        return countCows >= cows
+# def aggressiveCows(stalls, cows):
+#     stalls.sort()
+#     def canPlaceCows(stalls, dist, cows):
+#         countCows, minDist = 1, stalls[0]
+#         for i in range(1, len(stalls)):
+#             if stalls[i] - minDist >= dist:
+#                 countCows += 1
+#                 minDist = stalls[i]
+#         return countCows >= cows
+#
+#     low, high = 0, (stalls[-1] - stalls[0])
+#     ans = -1
+#     while low <= high:
+#         mid = low + (high - low) // 2
+#         if canPlaceCows(stalls, mid, cows):
+#             ans = mid
+#             low = mid + 1
+#         else:
+#             high = mid - 1
+#     return ans
+#
+# print(aggressiveCows([0,3,4,7,10,9], 4))
 
-    low, high = 0, (stalls[-1] - stalls[0])
-    ans = -1
-    while low <= high:
-        mid = low + (high - low) // 2
-        if canPlaceCows(stalls, mid, cows):
-            ans = mid
-            low = mid + 1
-        else:
-            high = mid - 1
-    return ans
+# ================================================================================================================================
+# Allocate number books
 
-print(aggressiveCows([0,3,4,7,10,9], 4))
+# def allocateBooks(arr, n):
+#     def isPossible(arr, n, max_pages):
+#         students = 1
+#         curr = 0
+#         for num in arr:
+#             if num + curr > max_pages:
+#                 curr = num
+#                 students += 1
+#
+#                 if students > n: return False
+#             else:
+#                 curr += num
+#         return True
+#
+#     if n > len(arr): return -1
+#     l, h = max(arr), sum(arr)
+#     res = h
+#     while l <= h:
+#         mid = (l + h) // 2
+#         if isPossible(arr, n, mid):
+#             res = mid
+#             h = mid - 1
+#         else:
+#             l = mid + 1
+#     return res
+#
+# print(allocateBooks([25, 26, 28, 49, 24], 4))  # Expected output: 49
+
+# ================================================================================================================================
+# Painters Partition
+
+# def paintersPartition(arr, k, n):
+#     def isPossible(arr, k, maxN):
+#         painter = 1
+#         curr = 0
+#         for num in arr:
+#             if num + curr > maxN:
+#                 curr = num
+#                 painter += 1
+#                 if painter > k: return False
+#             else:
+#                 curr += num
+#         return True
+#
+#     low, high = max(arr), sum(arr)
+#     res = -1
+#     while low <= high:
+#         mid = low + (high - low) // 2
+#         if isPossible(arr, k, maxN=mid):
+#             res = mid
+#             high = mid - 1
+#         else: low = mid + 1
+#     return res
+#
+# print(paintersPartition([10, 20, 30, 40], 2, 4))
+
+# ================================================================================================================================
+# Minimise Maximum distance between gas stations
+
+# def minimiseMaximumGasStations(stations, k):
+#     def countOfGasStations(stations, dist):
+#         count = 0
+#         for i in range(1, len(stations)):
+#             gap = stations[i] - stations[i - 1]
+#             count += int(gap // dist)
+#         return count
+#
+#     low, high = 0, max([stations[i + 1] - stations[i] for i in range(len(stations) - 1)])
+#     ans = -1
+#     while (high - low) > 1e-6:
+#         mid = (high + low) / 2.0
+#         count = countOfGasStations(stations, mid)
+#         if count > k: low = mid
+#         else:
+#             ans = mid
+#             high = mid
+#     return ans
+#
+# print(minimiseMaximumGasStations([1,2,3,4,5], 4))
+
