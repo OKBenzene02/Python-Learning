@@ -1,7 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59783f20-371b-4e52-bf34-bda42904400f" name="Changes" comment="" />
+    <list default="true" id="59783f20-371b-4e52-bf34-bda42904400f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OOPSconcepts/complete_oops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures_algorithms/algos-7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_begin/.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_begin/.ipynb_checkpoints/.ipynb-checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_begin/.ipynb_checkpoints/02_01_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_begin/02_01_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_end/.ipynb_checkpoints/02_01_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_01_end/02_01_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_02_begin/.ipynb_checkpoints/02_02_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_02_begin/.ipynb_checkpoints/02_02_part1 with transcript-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_02_begin/02_02_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_02_end/.ipynb_checkpoints/02_02_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_02_end/02_02_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_03_begin/.ipynb_checkpoints/02_03_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_03_begin/.ipynb_checkpoints/02_03_part1 with transcripts-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_03_begin/02_03_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_03_end/.ipynb_checkpoints/02_03_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_03_end/02_03_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_04_begin/.ipynb_checkpoints/02_04_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_04_begin/.ipynb_checkpoints/02_04_part1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_04_begin/02_04_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_04_end/.ipynb_checkpoints/02_04_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_04_end/02_04_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_05_begin/.ipynb_checkpoints/02_05_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_05_begin/.ipynb_checkpoints/02_05_part1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_05_begin/02_05_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_05_end/.ipynb_checkpoints/02_05_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/02_05_end/02_05_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_01_begin/.ipynb_checkpoints/04_01_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_01_begin/04_01_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_01_end/.ipynb_checkpoints/04_01_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_01_end/04_01_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_02_begin/.ipynb_checkpoints/04_02_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_02_begin/04_02_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_02_end/.ipynb_checkpoints/04_02_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_02_end/04_02_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_03_begin/.ipynb_checkpoints/04_03_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_03_begin/04_03_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_03_end/.ipynb_checkpoints/04_03_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_03_end/04_03_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_04_begin/.ipynb_checkpoints/04_04_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_04_begin/04_04_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_04_end/.ipynb_checkpoints/04_04_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_04_end/04_04_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_05_begin/.ipynb_checkpoints/04_05_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_05_begin/04_05_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_05_end/.ipynb_checkpoints/04_05_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_05_end/04_05_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_06_begin/.ipynb_checkpoints/04_06_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_06_begin/04_06_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_06_end/.ipynb_checkpoints/04_06_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/04_06_end/04_06_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_01_begin/.ipynb_checkpoints/05_01_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_01_begin/05_01_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_01_end/.ipynb_checkpoints/05_01_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_01_end/05_01_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_02_begin/.ipynb_checkpoints/05_02_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_02_begin/05_02_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_02_end/.ipynb_checkpoints/05_02_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_02_end/05_02_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_03_begin/.ipynb_checkpoints/05_03_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_03_begin/05_03_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_03_end/.ipynb_checkpoints/05_03_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_03_end/05_03_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_04_begin/.ipynb_checkpoints/05_04_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_04_begin/05_04_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_04_end/.ipynb_checkpoints/05_04_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_04_end/05_04_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_05_begin/.ipynb_checkpoints/05_05_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_05_begin/05_05_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_05_end/.ipynb_checkpoints/05_05_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_05_end/05_05_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_06_begin/.ipynb_checkpoints/05_06_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_06_begin/05_06_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_06_end/.ipynb_checkpoints/05_06_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_06_end/05_06_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_07_begin/.ipynb_checkpoints/05_07_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_07_begin/05_07_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_07_end/.ipynb_checkpoints/05_07_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_07_end/05_07_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_08_begin/.ipynb_checkpoints/05_08_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_08_begin/05_08_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_08_end/.ipynb_checkpoints/05_08_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_08_end/05_08_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_09_begin/.ipynb_checkpoints/05_09_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_09_begin/05_09_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_09_end/.ipynb_checkpoints/05_09_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/05_09_end/05_09_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_01_begin/.ipynb_checkpoints/06_01_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_01_begin/06_01_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_01_end/.ipynb_checkpoints/06_01_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_01_end/06_01_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_02_begin/.ipynb_checkpoints/06_02_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_02_begin/06_02_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_02_end/.ipynb_checkpoints/06_02_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_02_end/06_02_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_03_begin/.ipynb_checkpoints/06_03_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_03_begin/06_03_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_03_end/.ipynb_checkpoints/06_03_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_03_end/06_03_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_04_begin/.ipynb_checkpoints/06_04_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_04_begin/06_04_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_04_end/.ipynb_checkpoints/06_04_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_04_end/06_04_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_05_begin/.ipynb_checkpoints/06_05_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_05_begin/06_05_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_05_end/.ipynb_checkpoints/06_05_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_05_end/06_05_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_06_begin/.ipynb_checkpoints/06_06_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_06_begin/06_06_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_06_end/.ipynb_checkpoints/06_06_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_06_end/06_06_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_07_begin/.ipynb_checkpoints/06_07_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_07_begin/06_07_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_07_end/.ipynb_checkpoints/06_07_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/06_07_end/06_07_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_02_begin/.ipynb_checkpoints/07_02_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_02_begin/07_02_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_02_end/.ipynb_checkpoints/07_02_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_02_end/07_02_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_03_begin/.ipynb_checkpoints/07_03_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_03_begin/07_03_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_03_end/.ipynb_checkpoints/07_03_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_03_end/07_03_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_04_begin/.ipynb_checkpoints/07_04_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_04_begin/07_04_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_04_end/.ipynb_checkpoints/07_04_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_04_end/07_04_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_05_begin/.ipynb_checkpoints/07_05_begin-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_05_begin/07_05_begin.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_05_end/.ipynb_checkpoints/07_05_end-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/07_05_end/07_05_end.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/Superstore-Sales.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/UsSales.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/UsSalesConverted.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/analytics.usa.gov website.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/iris.data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/mtcars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_Files_Python_Data_Science_EssT_Pt_1/Exercise Files/Data/parsed_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working_with_excel/.ipynb_checkpoints/test_run-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working_with_excel/studentmarks.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working_with_excel/test_run.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures_algorithms/algos-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures_algorithms/algos-4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures_algorithms/algos-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures_algorithms/algos-6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_learning/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flask_learning/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_learning/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flask_learning/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_learning/instance/user.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_learning/instance/user.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/Differentgraphs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/fourier_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/gibbs_phenomenon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/plottingGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plottingGraphs/reconstruction_error_coefficients.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table extractions/env/chatbot for pdf/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/table extractions/env/chatbot for pdf/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table extractions/env/chatbot for pdf/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/table extractions/env/chatbot for pdf/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table extractions/env/chatbot-django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/table extractions/env/chatbot-django/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +172,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OKBenzene02&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OKBenzene02/Python-Learning.git",
+    "accountId": "0a6aefe5-a225-4afc-9c52-18f01ba58bff"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2KXxw9LMjXEAnhNkIIsuIY4nWib" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,7 +196,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Python Learning/Python Learning/Current Python learning/HelloWorld"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Python Learning/Python Learning/Current Python learning/data_structures_algorithms"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

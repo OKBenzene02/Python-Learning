@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flask_learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/table extractions/env/chatbot for pdf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/table extractions/env/chatbot-django" vcs="Git" />
   </component>
 </project>
