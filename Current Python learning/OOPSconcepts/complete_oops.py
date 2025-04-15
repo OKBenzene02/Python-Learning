@@ -12,8 +12,8 @@ class Car:
 class ElectricCar(Car):
     def __init__(self, battery_size):
         super().__init__()
-
+        self.battery_size = 10
 
 
 my_car = Car("BMW", "m3") # object is created (instance)
-print(my_car.display())
+print()
