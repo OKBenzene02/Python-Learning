@@ -90,3 +90,26 @@
 #     return min_idx
 #
 # print(minimumNumber([[0,0,0],[0,0,0],[0,0,0]]))
+
+# ================================================================================================================================
+# Largest subarray with sum zero
+
+# Perfix sum + hash map method. Calculate the prefix sum for each element encountered.
+# maintain a hashmap and add (sum, ind) to the hashmap
+# when sum in hashmap then (curr_ind - map[sum])
+
+def largestSubarrayWithSumZero(nums):
+    mp = dict()
+    pref = 0
+    maxLen = 0
+    for i in range(len(nums)):
+        pref += nums[i]
+        if pref == 0:
+            maxLen = i + 1
+        else:
+            if pref not in mp:
+                mp[pref] = i
+            maxLen = max(maxLen, i - mp[pref])
+    return maxLen
+
+print(largestSubarrayWithSumZero([1,-1,3,2,-2,-8,1,7,10,2,3]))
