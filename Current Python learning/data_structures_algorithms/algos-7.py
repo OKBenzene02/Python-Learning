@@ -98,18 +98,37 @@
 # maintain a hashmap and add (sum, ind) to the hashmap
 # when sum in hashmap then (curr_ind - map[sum])
 
-def largestSubarrayWithSumZero(nums):
-    mp = dict()
-    pref = 0
-    maxLen = 0
-    for i in range(len(nums)):
-        pref += nums[i]
-        if pref == 0:
-            maxLen = i + 1
-        else:
-            if pref not in mp:
-                mp[pref] = i
-            maxLen = max(maxLen, i - mp[pref])
-    return maxLen
+# def largestSubarrayWithSumZero(nums):
+#     mp = dict()
+#     pref = 0
+#     maxLen = 0
+#     for i in range(len(nums)):
+#         pref += nums[i]
+#         if pref == 0:
+#             maxLen = i + 1
+#         else:
+#             if pref not in mp:
+#                 mp[pref] = i
+#             maxLen = max(maxLen, i - mp[pref])
+#     return maxLen
+#
+# print(largestSubarrayWithSumZero([1,-1,3,2,-2,-8,1,7,10,2,3]))
 
-print(largestSubarrayWithSumZero([1,-1,3,2,-2,-8,1,7,10,2,3]))
+# ================================================================================================================================
+# Count Subarrays with xor as k
+
+# def countSubarraysWithXOR(nums, k):
+#     mp = dict()
+#     pref = 0
+#     count = 0
+#     for i in range(len(nums)):
+#         pref ^= nums[i]
+#         if pref == k:
+#             count += 1
+#         count += mp.get(pref ^ k, 0)
+#         mp[pref] = mp.get(pref, 0) + 1
+#     return count
+#
+# print(countSubarraysWithXOR([5, 6, 7, 8, 9], 5))
+
+# ================================================================================================================================
