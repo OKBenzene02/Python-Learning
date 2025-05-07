@@ -38,16 +38,49 @@
 # ================================================================================================================================
 # Next greater element - 1
 
-def next_greater_element(arr):
+# def next_greater_element(arr):
+#     stack = []
+#     res = [0] * len(arr)
+#     for i in range(len(arr) - 1, -1, -1):
+#         while stack and stack[-1] <= arr[i]:
+#             stack.pop()
+#
+#         res[i] = stack[-1] if stack else -1
+#         stack.append(arr[i])
+#
+#     return res
+#
+# print(next_greater_element([4,12,5,3,1,2,5,3,1,2,4,6]))
+
+# ================================================================================================================================
+# Next greater element - 2
+
+# def next_greater_element(arr):
+#     stack = []
+#     res = [0] * len(arr)
+#     for i in range(2 * len(arr) - 1, -1, -1):
+#         ind = i % len(arr)
+#         while stack and stack[-1] <= arr[ind]:
+#             stack.pop()
+#
+#         res[ind] = stack[-1] if stack else -1
+#         stack.append(arr[ind])
+#     return res
+#
+# print(next_greater_element([2,10,12,1,11]))
+
+# ================================================================================================================================
+# Previous smaller element
+
+def previous_smaller_element(nums):
     stack = []
-    res = [0] * len(arr)
-    for i in range(len(arr) - 1, -1, -1):
-        while stack and stack[-1] <= arr[i]:
+    res = [0] * len(nums)
+    for i in range(len(nums)):
+        while stack and stack[-1] >= nums[i]:
             stack.pop()
-
         res[i] = stack[-1] if stack else -1
-        stack.append(arr[i])
-
+        stack.append(nums[i])
     return res
 
-print(next_greater_element([4,12,5,3,1,2,5,3,1,2,4,6]))
+print(previous_smaller_element([5,7,9,6,7,4,5,1,3,7]))
+print(previous_smaller_element([4,5,2,10,8]))
