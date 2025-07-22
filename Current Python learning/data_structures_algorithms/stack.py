@@ -1,3 +1,5 @@
+from typing import List, Dict
+
 # Infix to postfix conversion
 
 # def priority(operator):
@@ -50,7 +52,7 @@
 #
 #     return res
 #
-# print(next_greater_element([4,12,5,3,1,2,5,3,1,2,4,6]))
+# print(next_greater_element([4,12,5,3,1,2,5,3,1,2,4,6])) # [5, -1, 6, 5, -1, 3, 6, 4, -1, 4, -1]
 
 # ================================================================================================================================
 # Next greater element - 2
@@ -82,7 +84,7 @@
 #         stack.append(nums[i])
 #     return res
 #
-# print(previous_smaller_element([5,7,9,6,7,4,5,1,3,7]))
+# print(previous_smaller_element([5,7,9,6,7,4,5,1,3,7])) # [-1, 5, 7, 5, 6, -1, 4, -1, 1, 3]
 # print(previous_smaller_element([4,5,2,10,8]))
 
 # ================================================================================================================================
@@ -214,33 +216,86 @@
 
 # ================================================================================================================================
 # Largest rectangle in histogram
+#
+# def largest_rectangle(histograms):
+#     n = len(histograms)
+#     nse = [0] * n
+#     pse = [0] * n
+#
+#     # Find NSE for each indexed element
+#     stack = []
+#     for i in range(n - 1, -1, -1):
+#         while stack and histograms[stack[-1]] >= histograms[i]:
+#             stack.pop()
+#         nse[i] = stack[-1] if stack else n
+#         stack.append(i)
+#
+#     # Find PSE for each indexed element
+#     stack = []
+#     for i in range(n):
+#         while stack and histograms[stack[-1]] >= histograms[i]:
+#             stack.pop()
+#         pse[i] = stack[-1] if stack else -1
+#         stack.append(i)
+#
+#     # Calculate the area for each rectangle
+#     max_area = 1
+#     for i in range(n):
+#         max_area = max(max_area, histograms[i] * (nse[i] - pse[i] - 1))
+#
+#     return max_area
+#
+# print(largest_rectangle([2,1,5,6,2,3]))
 
-def largest_rectangle(histograms):
+# ================================================================================================================================
+# Maximal rectangle
+
+def maximal_rectangle(matrix: List[List[int]]) -> int:
+    res = [[0] * len(matrix[0]) for _ in range(len(matrix))]
+    for i in range(len(matrix[0])):
+        res[0][i] = int(matrix[0][i])
+
+    for i in range(1,len(matrix)):
+        for j in range(len(matrix[0])):
+            if matrix[i][j] == '1' or matrix[i][j] == 1:
+                res[i][j] += res[i-1][j] + 1
+            else:
+                res[i][j] = 0
+
+    maxRectangle = 1
+    for i in range(len(res)):
+        maxRectangle = max(maxRectangle, calculate_largest_histogram(res[i]))
+    return maxRectangle
+
+
+def calculate_largest_histogram(histograms: List[int]) -> int:
     n = len(histograms)
-    nse = [0] * n
     pse = [0] * n
+    nse = [0] * n
 
-    # Find NSE for each indexed element
     stack = []
-    for i in range(n - 1, -1, -1):
-        while stack and histograms[stack[-1]] >= histograms[i]:
-            stack.pop()
-        nse[i] = stack[-1] if stack else n
-        stack.append(i)
-
-    # Find PSE for each indexed element
-    stack = []
-    for i in range(n):
+    # Calculate the PSE
+    for i in range(len(histograms)):
         while stack and histograms[stack[-1]] >= histograms[i]:
             stack.pop()
         pse[i] = stack[-1] if stack else -1
         stack.append(i)
 
-    # Calculate the area for each rectangle
-    max_area = 1
-    for i in range(n):
-        max_area = max(max_area, histograms[i] * (nse[i] - pse[i] - 1))
+    # Calculate the NSE
+    stack = []
+    for i in range(len(histograms) - 1, -1, -1):
+        while stack and histograms[stack[-1]] >= histograms[i]:
+            stack.pop()
 
+        nse[i] = stack[-1] if stack else n
+        stack.append(i)
+
+    max_area = 1
+    for i in range(len(histograms)):
+        max_area = max(max_area, histograms[i] * (nse[i] - pse[i] - 1))
     return max_area
 
-print(largest_rectangle([2,1,5,6,2,3]))
+print(maximal_rectangle( [[1,0,1,0,0],
+                          [1,0,1,1,1],
+                          [1,1,1,1,1],
+                          [1,0,0,1,0]]))
