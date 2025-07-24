@@ -1,5 +1,8 @@
 from typing import List, Dict
 
+from IPython import start_kernel
+
+
 # Infix to postfix conversion
 
 # def priority(operator):
@@ -250,52 +253,72 @@ from typing import List, Dict
 # ================================================================================================================================
 # Maximal rectangle
 
-def maximal_rectangle(matrix: List[List[int]]) -> int:
-    res = [[0] * len(matrix[0]) for _ in range(len(matrix))]
-    for i in range(len(matrix[0])):
-        res[0][i] = int(matrix[0][i])
+# def maximal_rectangle(matrix: List[List[int]]) -> int:
+#     res = [[0] * len(matrix[0]) for _ in range(len(matrix))]
+#     for i in range(len(matrix[0])):
+#         res[0][i] = int(matrix[0][i])
+#
+#     for i in range(1,len(matrix)):
+#         for j in range(len(matrix[0])):
+#             if matrix[i][j] == '1' or matrix[i][j] == 1:
+#                 res[i][j] += res[i-1][j] + 1
+#             else:
+#                 res[i][j] = 0
+#
+#     maxRectangle = 1
+#     for i in range(len(res)):
+#         maxRectangle = max(maxRectangle, calculate_largest_histogram(res[i]))
+#     return maxRectangle
+#
+#
+# def calculate_largest_histogram(histograms: List[int]) -> int:
+#     n = len(histograms)
+#     pse = [0] * n
+#     nse = [0] * n
+#
+#     stack = []
+#     # Calculate the PSE
+#     for i in range(len(histograms)):
+#         while stack and histograms[stack[-1]] >= histograms[i]:
+#             stack.pop()
+#         pse[i] = stack[-1] if stack else -1
+#         stack.append(i)
+#
+#     # Calculate the NSE
+#     stack = []
+#     for i in range(len(histograms) - 1, -1, -1):
+#         while stack and histograms[stack[-1]] >= histograms[i]:
+#             stack.pop()
+#
+#         nse[i] = stack[-1] if stack else n
+#         stack.append(i)
+#
+#     max_area = 1
+#     for i in range(len(histograms)):
+#         max_area = max(max_area, histograms[i] * (nse[i] - pse[i] - 1))
+#     return max_area
+#
+# print(maximal_rectangle([[1,0,1,0,0],
+#                           [1,0,1,1,1],
+#                           [1,1,1,1,1],
+#                           [1,0,0,1,0]]))
 
-    for i in range(1,len(matrix)):
-        for j in range(len(matrix[0])):
-            if matrix[i][j] == '1' or matrix[i][j] == 1:
-                res[i][j] += res[i-1][j] + 1
-            else:
-                res[i][j] = 0
+# ================================================================================================================================
+# Remove k digits
 
-    maxRectangle = 1
-    for i in range(len(res)):
-        maxRectangle = max(maxRectangle, calculate_largest_histogram(res[i]))
-    return maxRectangle
-
-
-def calculate_largest_histogram(histograms: List[int]) -> int:
-    n = len(histograms)
-    pse = [0] * n
-    nse = [0] * n
-
+def remove_k_digits(nums: str, k: int) -> str:
     stack = []
-    # Calculate the PSE
-    for i in range(len(histograms)):
-        while stack and histograms[stack[-1]] >= histograms[i]:
+    for i in range(len(nums)):
+        while k > 0 and stack and stack[-1] > nums[i]:
             stack.pop()
-        pse[i] = stack[-1] if stack else -1
-        stack.append(i)
+            k -= 1
+        stack.append(nums[i])
+    while k > 0:
+        stack.pop()
+        k -= 1
 
-    # Calculate the NSE
-    stack = []
-    for i in range(len(histograms) - 1, -1, -1):
-        while stack and histograms[stack[-1]] >= histograms[i]:
-            stack.pop()
+    result = ''.join(stack).lstrip('0')
+    return result if result else '0'
 
-        nse[i] = stack[-1] if stack else n
-        stack.append(i)
+print(remove_k_digits('100', 1))
 
-    max_area = 1
-    for i in range(len(histograms)):
-        max_area = max(max_area, histograms[i] * (nse[i] - pse[i] - 1))
-    return max_area
-
-print(maximal_rectangle( [[1,0,1,0,0],
-                          [1,0,1,1,1],
-                          [1,1,1,1,1],
-                          [1,0,0,1,0]]))
