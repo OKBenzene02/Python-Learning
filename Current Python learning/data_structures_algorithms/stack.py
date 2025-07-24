@@ -306,19 +306,38 @@ from IPython import start_kernel
 # ================================================================================================================================
 # Remove k digits
 
-def remove_k_digits(nums: str, k: int) -> str:
-    stack = []
-    for i in range(len(nums)):
-        while k > 0 and stack and stack[-1] > nums[i]:
-            stack.pop()
-            k -= 1
-        stack.append(nums[i])
-    while k > 0:
-        stack.pop()
-        k -= 1
+# def remove_k_digits(nums: str, k: int) -> str:
+#     stack = []
+#     for i in range(len(nums)):
+#         while k > 0 and stack and stack[-1] > nums[i]:
+#             stack.pop()
+#             k -= 1
+#         stack.append(nums[i])
+#     while k > 0:
+#         stack.pop()
+#         k -= 1
+#
+#     result = ''.join(stack).lstrip('0')
+#     return result if result else '0'
+#
+# print(remove_k_digits('100', 1))
 
-    result = ''.join(stack).lstrip('0')
-    return result if result else '0'
+# ================================================================================================================================
+# Stock span problem
 
-print(remove_k_digits('100', 1))
+class StockSpan:
 
+    def __init__(self):
+        self._stack = []
+
+    def next(self, price: int) -> int:
+        span = 1
+        while self._stack and self._stack[-1][0] <= price:
+            span += self._stack.pop()[1]
+        self._stack.append([price, span])
+        return span
+
+obj = StockSpan()
+prices = [100, 80, 60, 70, 60, 75, 85]
+for i in range(len(prices)):
+    print(f'Day - 1, Price {prices[i]}, Span {obj.next(prices[i])}')
