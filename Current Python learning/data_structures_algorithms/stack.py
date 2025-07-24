@@ -1,6 +1,4 @@
-from typing import List, Dict
-
-from IPython import start_kernel
+from typing import List
 
 
 # Infix to postfix conversion
