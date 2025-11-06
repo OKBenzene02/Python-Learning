@@ -1,0 +1,39 @@
+# Project-specific ignores (use forward slashes; spaces are literal)
+Current Python learning/**/.idea/
+Current Python learning/**/table extractions/env/
+Current Python learning/**/table extractions/
+
+# Some other folders
+Current Python learning/Django-tutorials/
+Current Python learning/flask_learning/
+Current Python learning/okr clean architecture/
+Current Python learning/training llms/
+Current Python learning/gen_ai/
+
+# General Python ignores
+Current Python learning/**/__pycache__/
+Current Python learning/**/*.py[cod]
+Current Python learning/**/*.pyo
+Current Python learning/**/*.pyd
+Current Python learning/**/env/
+Current Python learning/**/venv/
+Current Python learning/**/.venv
+Current Python learning/**/.env
+Current Python learning/**/.Python
+Current Python learning/**/pip-wheel-metadata/
+Current Python learning/**/build/
+Current Python learning/**/dist/
+Current Python learning/**/*.egg-info/
+
+# Tool caches
+Current Python learning/**/.mypy_cache/
+Current Python learning/**/.pytest_cache/
+
+# IDE/editor
+Current Python learning/**/.vscode/
+Current Python learning/**/.idea/
+
+# OS files
+Current Python learning/**/Thumbs.db
+Current Python learning/**/.DS_Store
+

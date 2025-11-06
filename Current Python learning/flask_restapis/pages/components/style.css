@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container{
+    padding: 1rem;
+}
+
+.main-container .heading-tag{
+    width: fit-content;
+}
+
+.main-container .heading-tag a .heading-tag-name{
+    margin-top:1rem;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: none;
+    color: black;
+}
+
+.main-container .heading-tag a .heading-tag-name:hover{
+    text-decoration: underline;
+}
+
+.main-container .heading-tag .heading-tag-name-style{
+    width: 2.5rem; 
+    height:5px;
+     background-color: #2f89ff; 
+     position: absolute;
+}
+
+.main-container .products-container{
+    margin-top: 1.5rem;
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+/* Card CSS */
+.card{
+    width: 11rem;
+    height: 22.5rem;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: .3rem;
+    z-index: 1;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    border-radius: .3rem .3rem 0 0;
+}
+
+.card .card-container{
+    margin-left: .7rem;
+    margin-top: .5rem;
+
+}
+
+.card .card-container .product-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card .card-container .price{
+    margin-top: .7rem;
+    font-size: 14px;
+}
+
+.card .card-container a button{
+    margin-top: .5rem;
+    border: 2px solid #2f89ff;
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+    color: #2f89ff;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: .2rem;
+}
+
+.card .card-container a button:hover{
+    background-color: #2f89ff;
+    color: white;
+}
+
